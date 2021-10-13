@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -18,7 +19,7 @@ export const Container = styled.header`
 
             a {
                 text-decoration: none;
-                color: hsl(0, 0%, 100%);
+                color: var(--white);
                 font-family: 'Raleway', sans-serif;
             }
         }

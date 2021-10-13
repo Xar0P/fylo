@@ -1,10 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+	:root {
+		--white: hsl(0, 0%, 100%);
+		--cyan: hsl(176, 68%, 64%);
+		--blue: hsl(198, 60%, 50%);
+		--light-red: hsl(0, 100%, 63%);
+	}
+
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+		border: 0;
     }
 
     html {
