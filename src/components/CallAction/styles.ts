@@ -18,7 +18,6 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
 
-    font-family: 'Raleway', sans-serif;
     color: var(--white);
     text-align: center;
 
@@ -27,6 +26,8 @@ export const Container = styled.section`
         font-size: 2.5rem;
         line-height: 60px;
         margin-bottom: 35px;
+
+        font-family: 'Raleway', sans-serif;
     }
 
     p {
@@ -34,6 +35,8 @@ export const Container = styled.section`
         max-width: 600px;
         line-height: 30px;
         margin-bottom: 30px;
+
+        font-family: 'Open Sans', sans-serif;
     }
 
     button {
@@ -44,6 +47,8 @@ export const Container = styled.section`
         font-weight: 700;
         cursor: pointer;
         background-image: linear-gradient(to right, var(--cyan), var(--blue));
+
+        font-family: 'Open Sans', sans-serif;
     }
 `;
 
