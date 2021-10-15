@@ -7,6 +7,7 @@ export const Container = styled.section`
     background-color: hsl(218, 28%, 13%);
 
     padding-top: 100px;
+    padding-bottom: 400px;
 
     display: flex;
     flex-direction: column;
