@@ -50,7 +50,7 @@ export function Quotes() {
                         <div key={quote.author.name}>
                             <div><p>{quote.content}</p></div>
                             <div>
-                                <div><img src={quote.author.img} alt="image author" /></div>
+                                <div><img src={quote.author.img} alt="img author" /></div>
                                 <div>
                                     <h4>{quote.author.name}</h4>
                                     <p>{quote.author.description}</p>
