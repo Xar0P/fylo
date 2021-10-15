@@ -56,7 +56,7 @@ export function Info() {
             <Content>
                 {features.map(feature => {
                     return (
-                        <Item>
+                        <Item key={feature.title}>
                             <img src={feature.img.src} alt={feature.img.alt} />
                             <h2>{feature.title}</h2>
                             <p>{feature.content}</p>
