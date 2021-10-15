@@ -39,8 +39,9 @@ export const Item = styled.div`
     }
 
     p {
+        font-size: .95rem;
         line-height: 23px;
-
+        letter-spacing: 1px;
         font-family: 'Open Sans', sans-serif;
     }
 `;
