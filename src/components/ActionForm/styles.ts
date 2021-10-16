@@ -4,6 +4,7 @@ export const Container = styled.section`
     display: inline-block;
     max-width: 1000px;
     height: 340px;
+    z-index: 1;
 
     background-color: hsl(217, 28%, 15%);
 
@@ -13,6 +14,7 @@ export const Container = styled.section`
     transform: translate(-50%);
 
     padding: 50px 100px;
+    margin-bottom: 300px;
     border-radius: 10px;
 
     color: white;

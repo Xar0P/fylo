@@ -1,5 +1,6 @@
 import { ActionForm } from "./components/ActionForm"
 import { CallAction } from "./components/CallAction"
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Info } from "./components/Info"
 import { Quotes } from "./components/Quotes"
@@ -16,6 +17,7 @@ export function App() {
             <Quotes />
             <ActionForm />
             <GlobalStyle />
+            <Footer />
         </>
     )
 }

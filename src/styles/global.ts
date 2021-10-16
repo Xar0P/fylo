@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html {
+		position: relative;
 		@media (max-width: 1080px) { // Diminuir tamanho da fonte no celular
 			font-size: 93.75%; // 15px
 		}
